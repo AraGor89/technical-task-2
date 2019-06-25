@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+    <div class="container-fluid">
+        <div class="row">
+          <div class='coll-12 top'>
+             <img src="./icons_logos/joomag-love-wework.svg" class='loveImg'> 
+             <img src="./icons_logos/joomag-love-wework-mobile.svg" class='loveImgMobile' > 
+            <h1>Drive innovation and transform your <br> business into an immersive, interactive experience.</h1>
+            <p>Realize your vision with Joomag’s all-in-one platform. Use it to create dynamic interactive <br>
+                content without the need of developers. Then distribute it across the globe and measure your <br>
+                performance with need-to-know analytics.</p>
+          </div>
+        </div>
+    </div>
+    <div class="container" class='trusted'>
+      <div class="row">
+        <div class="coll-12 trustedBrands"><h3>Trusted by 500,000+ businesses worldwide</h3></div>
+      </div>
+    </div>
+
+    <div class="dinamicLogoes" id='activ'>
+      <img src="./icons_logos/walmart.svg" class="logoes"/>
+      <img src="./icons_logos/bbb.svg" class="logoes"/>
+      <img src="./icons_logos/ernest-brothers.svg" class="logoes"/>
+      <img src="./icons_logos/warner-brothers.svg" class="logoes"/>
+      <img src="./icons_logos/mini.svg" class="logoes"/>
+    </div>
+    <div class="dinamicLogoes" style="display:none;" id='hidden'>
+      <img src="./icons_logos/costa-coffee.svg" alt="" class="logoes">top
+      <img src="./icons_logos/jll.svg" alt="" class="logoes">
+      <img src="./icons_logos/levis.svg" alt="" class="logoes">
+      <img src="./icons_logos/marriott.svg" alt="" class="logoes"> 
+      <img src="./icons_logos/remax.svg" alt="" class="logoes">
+    </div>
+
+     <div class="container-fluid canvasContainer">
+        <div class="row">
+          <div class='coll-12 canvasInner'>
+              <canvas id="myCanvas"></canvas>
+              <div class="overlay topCanvasFront"> 
+                <h3  class='whiteColorWords'>Exclusive WeWork Offer</h3>
+                <span class='whiteColorWords'>WeWork members only can now enjoy Joomag alongside a special 30% discount.</span><br>
+                <input type="text" class="input" placeholder="Your Work Email"><button class='button'>Try Joomag for Free</button>
+              </div>
+          </div>
+        </div>
+    </div> 
+
+     <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-6 staticCentralLogoes"><img src="./icons_logos/creation.svg" class='staticLogo'></div>
+          <div class="col-xs-12 col-sm-6 col-lg-6 middlePartTextStyle"><h2>Creation</h2>
+            <p>It's easy to create anything when you have options. Start from scratch, choose from over 300
+                masterfully designed templates, or upload a PDF file to get started.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-6 staticCentralLogoes hiddenForReverse"><img src="./icons_logos/lead-generation.svg" class='staticLogo'></div>
+          <div class="col-xs-12 col-sm-6 col-lg-6 textAlignRight middlePartTextStyle" ><h2>Lead Generation</h2>
+            <p>Keep the sales process moving and use our powerful tools to generate more qualified leads.</p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-6 staticCentralLogoes hideForReverse"><img src="./icons_logos/lead-generation.svg" class='staticLogo'></div>
+        </div>
+        <div class="row" >
+          <div class="col-xs-12 col-sm-6 col-lg-6 staticCentralLogoes "><img src="./icons_logos/collaboration.svg" class='staticLogo'></div>
+          <div class="col-xs-12 col-sm-6 col-lg-6 middlePartTextStyle"><h2>Collaboration</h2>
+            <p>Work towards a common goal and let every employee access your interactive content.</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-6 staticCentralLogoes hiddenForReverse"><img src="./icons_logos/distribution.svg" class='staticLogo'></div>
+            <div class="col-xs-12 col-sm-6 col-lg-6 textAlignRight middlePartTextStyle"><h2>Distribution</h2>
+              <p>Web, mobile, desktop, social media, mobile apps - use them all (and more) to inflate your
+                  content's visibility with Joomag.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-lg-6 staticCentralLogoes hideForReverse"><img src="./icons_logos/distribution.svg" class='staticLogo'></div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-6 staticCentralLogoes "><img src="./icons_logos/analytics.svg" class='staticLogo'></div>
+            <div class="col-xs-12 col-sm-6 col-lg-6 middlePartTextStyle"><h2>Analytics</h2>
+              <p>Are readers engaged with your content? Where are they accessing it from? And which sources are
+                  driving the most traffic? Get these questions (and more) answered with Joomag's comprehensive
+                  analytics.</p>
+            </div>
+        </div>
+    </div> 
+    
+    <div class="container-fluid mainBottomPart">
+        <div class="row">
+          <div class='coll-12 bottomInnerPart'>
+              <canvas id="myCanvas2"> Your browser does not.</canvas>
+              <div class="overlay">                
+                  <span class="whiteColorWords">Work hard, save hard. All WeWork members will receive an exclusive<br>30% discount when enrolling
+                      in a Joomag Business plan..</span><br>
+                  <input type="text" class="input" placeholder="Your Work Email"><button class='button'>Try Joomag for Free</button><br>
+                  <span class="whiteColorWords">Only WeWork members. 1st year only.</span>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+    
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
+

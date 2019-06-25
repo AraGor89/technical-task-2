@@ -1,0 +1,151 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top {
+    background-image : linear-gradient(45deg, #29116d , #5c4789);;
+    height: auto; 
+    text-align: center;
+    font-size: 15px;
+    color:white;
+    padding: 10px 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.trustedBrands{
+    text-align: center;
+    font-size: 15px;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.staticCentralLogoes{
+    text-align: center;
+}
+.staticLogo{
+    width: 50%;
+}
+.textAlignRight{
+    text-align: right;
+}
+.middlePartTextStyle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.dinamicLogoes {
+    line-height: 200px;
+    height: 200px;
+    text-align: center;
+    overflow:hidden;
+  }
+  
+  .dinamicLogoes img {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .logoes{
+    width:6%;
+    margin:2%;
+  }
+  .overlay{
+    position:absolute;
+    top:32%; 
+    left:32%; 
+    width:auto;
+    height:auto;
+  }
+  .button{
+    background-color:rgb(65, 149, 244);
+    border:none;
+    color:white;
+    margin-top: 10px;
+    height: 25px;
+  }
+  .loveImg{
+    width: 20%;
+  }
+  .loveImgMobile{
+    width: 50%;
+    display: none;
+  }
+  .trusted{
+    margin-top: 60px;
+  }
+  .canvasContainer{
+    margin-top: 20px; 
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .canvasInner{
+    height: 300px;
+  }
+  #myCanvas{
+    width:100%; 
+    height:100%;
+  }
+  .whiteColorWords{
+    color:white;
+  }
+  .mainBottomPart{
+    margin-top: 0px; 
+    position: relative;
+    text-align: center;
+  }
+  .bottomInnerPart{
+    height: 300px;
+  }
+  #myCanvas2{
+    width:100%; 
+    height:100%;
+  }
+  .hiddenForReverse{
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    .loveImg{
+      display: none;
+    }
+    .loveImgMobile{
+      display: inline-block;
+    }
+    h1{
+      font-size: 20px;
+    }
+    h3{
+      font-size: 18px;
+    }
+    h2{
+      font-size: 16px;
+    }
+    p,span{
+      font-size: 14px;
+    }
+    *{
+      text-align: center;
+    }
+    .overlay{
+      position:absolute;
+      top:17%; 
+      left:15%;
+      right: 15%;  
+    }
+    .topCanvasFront{
+      position:absolute;
+      top:8%; 
+      left:15%;
+      right: 15%; 
+    }
+    .input{
+      width:100%;
+      margin-top: 10px;
+    }
+    .button{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .hideForReverse{
+      display:none;
+    }
+    .hiddenForReverse{
+      display: block;
+    }
+  } 
